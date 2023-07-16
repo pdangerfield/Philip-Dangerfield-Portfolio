@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Assets/FamilyPhoto.jpeg';
+import logo from '../../Assets/FamilyPhoto.jpeg';
 
 // TODO: Add a comment explaining what a react component is
 // A react component is a function that returns JSX

@@ -30,6 +30,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // TODO: Add a comment describing the significance of the ReactDOM.render method
 // ReactDOM.render() is the most common way to render JSX

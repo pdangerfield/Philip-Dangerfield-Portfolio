@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Home from './components/Home';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
-  return <Home />;
+  return <PortfolioContainer />;
 }
 
 export default App;
