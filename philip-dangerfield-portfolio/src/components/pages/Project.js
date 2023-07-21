@@ -39,7 +39,7 @@ export default function Project() {
       ];
       return (
         <div className="project-page">
-          <h1>Projects</h1>
+          {/* <h1>Projects</h1> */}
           <div className="project-list">
             {projects.map((project) => (
               <a href={project.url} className="card" key={project.id}>

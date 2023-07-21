@@ -1,22 +1,15 @@
 import React from 'react';
 import logo from '../../Assets/FamilyPhoto.jpeg';
 
-// TODO: Add a comment explaining what a react component is
-// A react component is a function that returns JSX
-// JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript.
+ 
 function Home() {
   
-
-  // TODO: Add a comment explaining what JSX is and the significance of the curly braces
-  // JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript.
-  // Curly braces are used to embed a JavaScript expression in JSX
-  // in this case it will import the text variable from above on line 7
   return (
     <div className = "App-home">
         <img src={logo} className="Photo" alt="logo" />
     
 <h1>Philip Dangerfield</h1>
-<p>Full Stack Developer ready to help you with your next important project. With my knowledge of JavaScript and React we can do something really special. </p>
+<p>As a highly skilled and experienced Full Stack Developer, I am more than prepared to assist you with your upcoming significant project. With my comprehensive expertise in JavaScript and React, we have the potential to create something truly exceptional and remarkable together. By leveraging my deep understanding of these technologies, we can build a robust and dynamic solution that not only meets your requirements but also exceeds your expectations. Rest assured that with my proficiency and dedication, your project will receive the utmost attention to detail and be delivered with the highest level of quality. So let's collaborate and embark on this exciting journey, where we can bring your vision to life and make a lasting impact with our exceptional skills and capabilities </p>
 </div>
   ) ;
 }

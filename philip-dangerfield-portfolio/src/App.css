@@ -1,51 +1,31 @@
 .App {
   text-align: center;
 }
+#root{
+  background:black;
+  
+}
 
 .Photo {
   height: 50vmin;
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-home {
-  background-color: #15181e;
   min-height: 100vh;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-    font-size: calc(10px + 2vmin);
+  justify-content: center; /* Changed from space-evenly */
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-h1 {
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #58dd43;
-  /*how to have this be centered above p tags?*/
-  
-}
+
 
 .App-link {
   color: #61dafb;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 p {
   color: #58dd43;
@@ -58,10 +38,11 @@ p {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f7f7f7;
+  background:rgba(0, 0, 0, 0.1);
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .form input,
@@ -101,6 +82,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+  
 }
 
 .card {
@@ -141,4 +123,65 @@ p {
 
 .card-content button:hover {
   background-color: #45a049;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #58dd43;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end !important;
+  background-color: black !important;
+  color: white !important;
+  position: fixed; /* Added position: fixed */
+  top: 0; /* Added top: 0 */
+  left: 0; /* Added left: 0 */
+  right: 0; /* Added right: 0 */
+  z-index: 999; /* Added z-index to ensure it's above other elements */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row !important;
+}
+
+.nav-item {
+  margin-right: 20px;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #58dd43 !important;
 }
