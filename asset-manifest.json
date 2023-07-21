@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Philip-Dangerfield-Portfolio/static/css/main.42d8269f.css",
+    "main.js": "/Philip-Dangerfield-Portfolio/static/js/main.a03b1655.js",
+    "static/media/FamilyPhoto.jpeg": "/Philip-Dangerfield-Portfolio/static/media/FamilyPhoto.c5a8eef6321c1cac1d62.jpeg",
+    "static/media/project4Image.png": "/Philip-Dangerfield-Portfolio/static/media/project4Image.032185bc71b2a7f83790.png",
+    "static/media/project2Image.png": "/Philip-Dangerfield-Portfolio/static/media/project2Image.7dc8ab69d94ec507fd2c.png",
+    "static/media/project1Image.png": "/Philip-Dangerfield-Portfolio/static/media/project1Image.830d1324e47cfbddd147.png",
+    "static/media/project3Image.png": "/Philip-Dangerfield-Portfolio/static/media/project3Image.5e5c85343ca9f44ce871.png",
+    "index.html": "/Philip-Dangerfield-Portfolio/index.html",
+    "main.42d8269f.css.map": "/Philip-Dangerfield-Portfolio/static/css/main.42d8269f.css.map",
+    "main.a03b1655.js.map": "/Philip-Dangerfield-Portfolio/static/js/main.a03b1655.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42d8269f.css",
+    "static/js/main.a03b1655.js"
+  ]
+}
