@@ -3,6 +3,7 @@ import project1Image from '../../Assets/project1Image.png';
 import project2Image from '../../Assets/project2Image.png';
 import project3Image from '../../Assets/project3Image.png';
 import project4Image from '../../Assets/project4Image.png';
+import project5Image from '../../Assets/project5Image.png';
 
 
 export default function Project() {
@@ -34,6 +35,13 @@ export default function Project() {
             description: 'Using MySQL, Node, Express, Handlebars, this application allows a user to create a login and password to access the companies databse. It stores an employees: name, job title, salary, and department. This is meant to be used by a companies Human Resources department.',
                    image: project4Image,
             url: 'https://vast-beach-72570.herokuapp.com/dashboard',
+          },
+          {
+            id: 5,
+            title: 'Task Hive',
+            description: 'Using react and mongoDB, this application allows a project manager to create a project and assign tasks to a user. The user can then login and see the projects assigned to them and the associated tasks.',
+                   image: project5Image,
+            url: 'https://taskhive-3576fd3630ff.herokuapp.com/',
           },
         // Add more project objects as needed
       ];
